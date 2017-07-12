@@ -1,0 +1,21 @@
+body{
+	background-color: #F1F1F1;
+	
+}
+.logo{
+	width: 112px;
+	height: 53px;
+	cursor: pointer;
+	position: absolute;
+	top: 63px;
+	left: 52px;
+}
+.main{
+	width: 440px;
+	height: 577px;
+	margin: 68px auto;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 7.272727012634277px 0px;
+
+}
