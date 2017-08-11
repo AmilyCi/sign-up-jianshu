@@ -205,3 +205,46 @@ body{
 	position: absolute;
 	left: 186px;
 }
+.alarm-name{
+	width: 119px;
+	height: 38px;
+	border:solid 1px #ea6f5a;
+	border-radius: 3px;
+	position: absolute;
+	top: 9px;
+	left: 313px;
+	background-color: #fff;
+}
+.alarm-name:before{
+	content: '';
+	width: 0px;
+	height: 0px;
+	border:solid transparent;
+	right: 100%;
+	top: 13px;
+	position: absolute;
+	border-width: 6px;
+	border-right-color: #ea6f5a;
+
+}
+.alarm-name:after{
+	content: '';
+	width: 0px;
+	height: 0px;
+	border:solid transparent;
+	right: 100%;
+	top: 15px;
+	position: absolute;
+	border-width: 4px;
+	border-right-color: #fff;
+}
+.alarm-name img{
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+.alarm-name span{
+	font-size: 13px;
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+宋体—5 glyphs
+}

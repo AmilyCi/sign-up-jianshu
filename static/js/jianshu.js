@@ -1,11 +1,11 @@
- var name,telephone,passward;
- name=getElementsByClassName('name').innerHTML;
- telephone=getElementsByClassName('telephone').innerHTML;
- passward=getElementsByClassName('password').innerHTML
-function myFunction{
-	if (name=null) {
-		alert("请输入昵称");
+var Dom_name = document.getElemenstByClassName('name');
+var Dom_telephone = document.getElemenstByClassName('telephone');
+var Dom_password = document.getElemenstByClassName('password');
+function submitFunction(){
+	var name =Dom_name[0].value;
+	var telephone = Dom_telephone[0].value;
+	var password = Dom_password[0].value;
+	if (name=="") {
+		
 	}
-	alert("你好")
-	
 }
