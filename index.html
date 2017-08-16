@@ -19,16 +19,16 @@
 		</div>
 		<div class="container">
 			<form class="information">
-				<input class="name" placeholder="你的昵称">
+				<input class="name"  placeholder="你的昵称">
 					<img class="icon-name" src="static/img/QQ截图20170719214459.jpg">
 				</input>
-				<input class="telephone" placeholder="手机号">
+				<input class="telephone"  placeholder="手机号">
 					<img class="icon-telephone" src="static/img/QQ截图20170719214541.jpg">
 				</input>
 				<input class="password" type="password" placeholder="设置密码">
 					<img class="icon-password" src="static/img/QQ截图20170719214556.jpg">
 				</input>
-				<input class="button" onclick="myFunction()" value="注册" type="button"></input>
+				<input class="button" onclick="submitFunction()" value="注册" type="button"></input>
 				<p class="text">
 				点击“注册”即表示您同意并愿意遵守简书
 				<br>
@@ -36,9 +36,17 @@
 				和
 				<a class="statement" href="http://www.jianshu.com/p/2ov8x3">隐私政策</a></p>
 			</form>
-			<div class="alarm-name" >
+			<div class="alarm-name" style="display:none">
 				<img src="static/img/QQ截图20170811213604.jpg">
 				<span>请输入昵称！</span>
+			</div>
+			<div class="alarm-telephone" style="display:none">
+				<img src="static/img/QQ截图20170811213604.jpg">
+				<span>请输入电话号！</span>
+			</div>
+			<div class="alarm-passward" style="display:none">
+				<img src="static/img/QQ截图20170811213604.jpg">
+				<span>请输入密码！</span>
 			</div>
 			<div class="more-sign">	
 				<span>社交账号直接注册</span>

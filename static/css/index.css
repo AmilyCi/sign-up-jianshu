@@ -248,3 +248,89 @@ body{
 	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 宋体—5 glyphs
 }
+.alarm-telephone{
+	width: 130px;
+	height: 38px;
+	border:solid 1px #ea6f5a;
+	border-radius: 3px;
+	position: absolute;
+	top: 61px;
+	left: 313px;
+	background-color: #fff;
+}
+.alarm-telephone:before{
+	content: '';
+	width: 0px;
+	height: 0px;
+	border:solid transparent;
+	right: 100%;
+	top: 13px;
+	position: absolute;
+	border-width: 6px;
+	border-right-color: #ea6f5a;
+
+}
+.alarm-telephone:after{
+	content: '';
+	width: 0px;
+	height: 0px;
+	border:solid transparent;
+	right: 100%;
+	top: 15px;
+	position: absolute;
+	border-width: 4px;
+	border-right-color: #fff;
+}
+.alarm-telephone img{
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+.alarm-telephone span{
+	font-size: 13px;
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+宋体—5 glyphs
+}
+.alarm-passward{
+	width: 130px;
+	height: 38px;
+	border:solid 1px #ea6f5a;
+	border-radius: 3px;
+	position: absolute;
+	top: 112px;
+	left: 313px;
+	background-color: #fff;
+}
+.alarm-passward:before{
+	content: '';
+	width: 0px;
+	height: 0px;
+	border:solid transparent;
+	right: 100%;
+	top: 13px;
+	position: absolute;
+	border-width: 6px;
+	border-right-color: #ea6f5a;
+
+}
+.alarm-passward:after{
+	content: '';
+	width: 0px;
+	height: 0px;
+	border:solid transparent;
+	right: 100%;
+	top: 15px;
+	position: absolute;
+	border-width: 4px;
+	border-right-color: #fff;
+}
+.alarm-passward img{
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+.alarm-passward span{
+	font-size: 13px;
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+宋体—5 glyphs
+}
