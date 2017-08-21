@@ -20,14 +20,20 @@
 		<div class="container">
 			<form class="information">
 				<input class="name"  placeholder="你的昵称">
-					<img class="icon-name" src="static/img/QQ截图20170719214459.jpg">
+					<img class="icon-name" src="static/img/ren.jpg">
 				</input>
 				<input class="telephone"  placeholder="手机号">
-					<img class="icon-telephone" src="static/img/QQ截图20170719214541.jpg">
+					<img class="icon-telephone" src="static/img/dh.jpg">
 				</input>
+				<div class="yzm" style="display: none;" >
+				<input class="addtelephone" type="text" placeholder="手机验证码" onchange="myFunction(this)">
+					<img class="icon-addtelephone" src="static/img/dp.jpg">
+					<button class='send-code' value="发送验证码">发送验证码</button>
+				</div>
+				<div>
 				<input class="password" type="password" placeholder="设置密码">
-					<img class="icon-password" src="static/img/QQ截图20170719214556.jpg">
-				</input>
+					<img class="icon-password" src="static/img/st.jpg">
+				</div>
 				<input class="button" onclick="submitFunction()" value="注册" type="button"></input>
 				<p class="text">
 				点击“注册”即表示您同意并愿意遵守简书

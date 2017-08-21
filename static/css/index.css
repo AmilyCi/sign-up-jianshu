@@ -12,7 +12,7 @@ body{
 }
 .main{
 	width: 440px;
-	height: 577px;
+	height: 600px;
 	margin: 68px auto;
 	background-color: white;
 	border-radius: 5px;
@@ -126,6 +126,39 @@ body{
 	top: 68px;
 	left: 11px;
 }
+.addtelephone{
+	height: 50px;
+	width: 265px;
+	outline: none;
+	margin:0px;
+	background-color: rgba(181, 181, 181, 0.0980392);
+	border-style: none;
+	border-top:1px solid #c8c8c8;
+	border-left:1px solid #c8c8c8;
+	border-right:1px solid #c8c8c8;
+	font-family:-apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+	font-size: 15px;
+	padding-left: 35px;
+}
+.icon-addtelephone{
+	display: inline;
+	position: absolute;
+	top: 121px;
+	left: 11px;
+}
+.send-code{
+	width: 90px;
+	height: 35px;
+	border-radius: 20px;
+	border-style: none;
+	background-color: #42c02e;
+	position: absolute;
+	left:198px;
+	top: 116px;
+	color: white;
+	font-family:-apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+	font-size: 5px;
+}
 .password{
 	height: 50px;
 	width: 265px;
@@ -143,8 +176,8 @@ body{
 }
 .icon-password{
 	display: inline;
-	position: absolute;
-	top: 121px;
+	position: relative;
+	top: -38px;
 	left: 11px;
 }
 .button{
