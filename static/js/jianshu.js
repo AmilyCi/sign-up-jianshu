@@ -31,9 +31,12 @@ function submitFunction(){
 		document.getElementsByClassName('alarm-passward')[0].style.display='none';
 	}
 }
-function myFunction(x){
+function myFunction(){
+	var telephone = Dom_telephone[0].value;
+	var main = document.getElementsByClassName[0]
 	if (telephone!='') {
 		document.getElementsByClassName('yzm')[0].style.display='block';
+		main.style.height='800px';
 	}
 	else{
 		document.getElementsByClassName('yzm')[0].style.display='none';

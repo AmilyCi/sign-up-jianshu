@@ -22,11 +22,11 @@
 				<input class="name"  placeholder="你的昵称">
 					<img class="icon-name" src="static/img/ren.jpg">
 				</input>
-				<input class="telephone"  placeholder="手机号">
+				<input class="telephone"  placeholder="手机号"  onchange="myFunction(this)">
 					<img class="icon-telephone" src="static/img/dh.jpg">
 				</input>
 				<div class="yzm" style="display: none;" >
-				<input class="addtelephone" type="text" placeholder="手机验证码" onchange="myFunction(this)">
+				<input class="addtelephone" type="text" placeholder="手机验证码">
 					<img class="icon-addtelephone" src="static/img/dp.jpg">
 					<button class='send-code' value="发送验证码">发送验证码</button>
 				</div>
@@ -34,14 +34,31 @@
 				<input class="password" type="password" placeholder="设置密码">
 					<img class="icon-password" src="static/img/st.jpg">
 				</div>
+				<div>
 				<input class="button" onclick="submitFunction()" value="注册" type="button"></input>
 				<p class="text">
 				点击“注册”即表示您同意并愿意遵守简书
 				<br>
 				<a class="statement" href="http://www.jianshu.com/p/c44d171298ce">用户协议</a>
 				和
-				<a class="statement" href="http://www.jianshu.com/p/2ov8x3">隐私政策</a></p>
-			</form>
+				<a class="statement" href="http://www.jianshu.com/p/2ov8x3">隐私政策</a>
+				</p>
+				<div class="more-sign">	
+				<span>社交账号直接注册</span>
+				</div>
+			
+				<div>
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=1881139527&redirect_uri=http%3A%2F%2Fwww.jianshu.com%2Fusers%2Fauth%2Fweibo%2Fcallback&response_type=code&state=dd0a8873712cb34afc3ac7353537be0fd1c9aef66fe5fd22">
+				<img class="weibo" src="static/img/QQ截图20170730202034.jpg">
+				</a>
+				<a href="https://open.weixin.qq.com/connect/qrconnect?appid=wxe9199d568fe57fdd&redirect_uri=http%3A%2F%2Fwww.jianshu.com%2Fusers%2Fauth%2Fwechat%2Fcallback&response_type=code&scope=snsapi_login&state=4e977f8651930480aeb5453fa2033c8ff86dd8e112a3cbf8#wechat_redirect">
+				<img class="weixin" src="static/img/QQ截图20170730202113.jpg">
+				</a>
+				<a href="https://graph.qq.com/oauth/show?which=Login&display=pc&client_id=100410602&redirect_uri=http%3A%2F%2Fwww.jianshu.com%2Fusers%2Fauth%2Fqq_connect%2Fcallback&response_type=code&state=cb7631b27c0049eddb6ffd43ae82818bc36caa874a0f56d0">
+				<img class="qq" src="static/img/QQ截图20170730202133.jpg">
+				</a>
+			    </div>
+			</div>    
 			<div class="alarm-name" style="display:none">
 				<img src="static/img/QQ截图20170811213604.jpg">
 				<span>请输入昵称！</span>
@@ -54,20 +71,7 @@
 				<img src="static/img/QQ截图20170811213604.jpg">
 				<span>请输入密码！</span>
 			</div>
-			<div class="more-sign">	
-				<span>社交账号直接注册</span>
-			</div>
-			<div>
-				<a href="https://api.weibo.com/oauth2/authorize?client_id=1881139527&redirect_uri=http%3A%2F%2Fwww.jianshu.com%2Fusers%2Fauth%2Fweibo%2Fcallback&response_type=code&state=dd0a8873712cb34afc3ac7353537be0fd1c9aef66fe5fd22">
-				<img class="weibo" src="static/img/QQ截图20170730202034.jpg">
-				</a>
-				<a href="https://open.weixin.qq.com/connect/qrconnect?appid=wxe9199d568fe57fdd&redirect_uri=http%3A%2F%2Fwww.jianshu.com%2Fusers%2Fauth%2Fwechat%2Fcallback&response_type=code&scope=snsapi_login&state=4e977f8651930480aeb5453fa2033c8ff86dd8e112a3cbf8#wechat_redirect">
-				<img class="weixin" src="static/img/QQ截图20170730202113.jpg">
-				</a>
-				<a href="https://graph.qq.com/oauth/show?which=Login&display=pc&client_id=100410602&redirect_uri=http%3A%2F%2Fwww.jianshu.com%2Fusers%2Fauth%2Fqq_connect%2Fcallback&response_type=code&state=cb7631b27c0049eddb6ffd43ae82818bc36caa874a0f56d0">
-				<img class="qq" src="static/img/QQ截图20170730202133.jpg">
-				</a>
-			</div>
+			</form>
 		</div>
 		
 	</div>

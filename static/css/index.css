@@ -188,7 +188,7 @@ body{
 	outline: none;
 	background-color: #42c02e;
 	text-align: center;
-	margin-top: 25px;
+	
 	font-size: 20px;
 	color: white;
 	font-family:-apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
@@ -203,22 +203,23 @@ body{
 	text-align: center;
 	line-height: 20px;
 	color: #969696;
+	display: block;
 }
 .statement{
 	color: #3194D0;
 	text-decoration: none;
 }
 .more-sign{
-	margin-top: 15px;
+	
 	text-align: center;
-	margin-bottom: 15px;
+	margin-bottom: 21px;
 	
 	}
 .more-sign span{
  	color: rgb(181, 181, 181);
  	font-size: 5px;
  	font-family: -apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
-	display: inline;
+	display: block;
 }
 .weibo{
 	width: 60px;
